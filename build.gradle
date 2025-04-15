@@ -33,7 +33,7 @@ task BuildJar(type: Jar) {
     }
 
     from sourceSets.main.output  // Include compiled classes in the JAR
-    archiveBaseName = 'hello-world-java'  // Name of the JAR file
+    archiveBaseName = 'hello-world-java1'  // Name of the JAR file
     destinationDirectory = file('build/libs')  // Output directory for the JAR file
 }
 // Modify the defualt JAR task to include the Main-Class
